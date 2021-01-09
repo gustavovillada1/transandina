@@ -368,6 +368,7 @@ img{
     }
     
     .menu {
+        background: 0;
         position: static;
         display: flex;
         height: auto;
