@@ -7,10 +7,12 @@
 .main-nav {
     width: 100%;
     position: fixed;
+    display: flex;
     padding: 10px;
     background: rgba(0,0,0,0.7);
     box-shadow: 3px 3px 40px;
     z-index: 4000;
+    transition: all 0.5s;
 }
 
 .icon-menu {
@@ -63,7 +65,7 @@
 
 
 .menu{
-    background: rgba(0,0,0,0.7);
+        background: rgba(0,0,0,0.7);
     position: absolute;
     top: 60px;
     left: 0;
