@@ -2,7 +2,7 @@ window.addEventListener('scroll',function(){
     
     var imagensita = document.querySelectorAll('.fade_up');//tomamos los elementos con esa clase.
     
-    var altura = window.innerHeight/1.05;//Capturamos la altura de la ventana, no importa que se reduzca. captura la nueva altura.
+    var altura = window.innerHeight/1.1;//Capturamos la altura de la ventana, no importa que se reduzca. captura la nueva altura.
         console.log(altura)
 
     
